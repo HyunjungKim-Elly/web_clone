@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style_custom.css">
+  <title>Flexbox layout</title>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class=".special-bg">
+        <div class="group-flex">
+          <div class="service-area">
+            <a href="/" class="link-text">네이버를 시작페이지로</a>
+            <a href="/" class="link-text">쥬니어네이버</a>
+            <a href="/" class="link-text">해피빈</a>
+          </div>   
+          <div class="search-area">
+            <div class="logo-area">
+              <a href="/"><img src="images/naver-logo.png" alt="" class="img-logo"></a>
+            </div>
+            <form id="search_form">
+              <fieldset>
+                <legend class="visually-hidden">검색</legend>
+                <div class="search-box">
+                  <input type="text" maxlength="225" tabindex="1" />
+                  <button type="submit" tabindex="2">
+                    Search
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="nav">
+        <div class="nav-items">
+          <ul>
+            <li><a href="/"><img src="./images/email.png" class="img-email"></a></li>
+            <li><a href="/">메일</a></li>
+            <li><a href="/">카페</a></li>
+            <li><a href="/">블로그</a></li>
+            <li><a href="/">지식iN</a></li>
+            <li><a href="/">쇼핑</a></li>
+            <li><a href="/">Pay</a></li>
+            <li><a href="/">TV</a></li>
+            <li><a href="/">사전</a></li>
+            <li><a href="/">뉴스</a></li>
+            <li><a href="/">증권</a></li>
+            <li><a href="/">부동산</a></li>
+            <li><a href="/">지도</a></li>
+            <li><a href="/">영화</a></li>
+            <li><a href="/">뮤직</a></li>
+            <li><a href="/">책</a></li>
+            <li><a href="/">웹툰</a></li>  
+          </ul>
+          <div class="group-keyword">
+            <span class="color-naver">1</span>
+            <span>실시간 검색어</span>
+          </div>
+        </div>
+    </header>
+    <main>
+      <div id="container" role="main">
+        main
+      </div>  
+    </main>
+    <footer>
+      <div id="footer" role="container-info">
+        <div class="footer-inner">
+          <!-- <div class="banner-area">footer</div> -->
+          <div class="notice-area">
+            <div class="notice-box">
+              <h3 class="footer-title">
+                <a href="/">공지사항</a>
+                <a href="/" class="link-all">서비스 전체보기</a>
+              </h3>
+            </div>
+          </div>
+          <div class="aside-area">
+            <div class="partner-box">
+              <h3 class="title">Creators</h3>
+              <a href="https://www.navercorp.com/service/creators" class="link-partner" data-clk="creator">크리에이터</a>
+              <a href="https://www.navercorp.com/service/business" class="link-partner" data-clk="smbusiness">스몰비즈니스</a>
+            </div>
+            <div class="partner-box">
+              <h3 class="title">Partners</h3>
+              <a href="https://business.naver.com/service.html" class="link-partner" data-clk="service">비즈니스 · 광고</a>
+              <a href="https://sell.storefarm.naver.com/#/home/about" class="link_partner" data-clk="store">스토어 개설</a>
+              <a href="https://smartplace.naver.com" class="link_partner" data-clk="place">지역업체 등록</a>
+            </div>
+            <div class="partner-box"></div>
+          </div>
+          <div class="corp-area"></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
